@@ -1,5 +1,6 @@
 <?php
 // Skenario 2
+date_default_timezone_set("Asia/Jakarta");
 $jam = date("24:00"); 
 
 if ($jam > "00:00" && $jam <= "04:01") {
